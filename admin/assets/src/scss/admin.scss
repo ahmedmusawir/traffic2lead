@@ -1,0 +1,59 @@
+/*=============================
+=            GLOBALS            =
+=============================*/
+// @import 'global';
+// @import 'custom';
+@import 'bower_components/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.App {
+  background-image: url('../../../assets/imgs/lee-bg-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 2rem 2rem !important;
+  .input-box {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 0.8rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-bottom: -0.75rem;
+    }
+    input {
+      margin-top: 1rem;
+      width: 350px;
+      border-radius: 0% !important;
+      border: 2px solid dodgerblue !important;
+      &::placeholder {
+        color: darken($color: #e3e3e3, $amount: 15%);
+      }
+    }
+
+    .btn {
+      width: 350px;
+      border-radius: 0% !important;
+    }
+    .btn-warning {
+      background-color: #f26e21 !important;
+      color: white !important;
+    }
+    .btn-info {
+      background-color: dodgerblue !important;
+      font-size: 0.7rem !important;
+      width: 150px !important;
+    }
+  }
+
+  .display-box {
+    margin-top: 2rem;
+    .success-message {
+      margin-top: 2rem;
+      color: limegreen;
+      font-size: 1rem;
+    }
+  }
+}

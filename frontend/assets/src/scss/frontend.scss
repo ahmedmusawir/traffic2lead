@@ -1,0 +1,220 @@
+/*=============================
+=            GLOBALS            =
+=============================*/
+@import 'global';
+@import 'custom';
+
+#REACT-PLUGIN-APP {
+  width: 100%;
+
+  // Global Font
+  // Main Container
+  .main-container {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #eef3fb;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    header {
+      background-image: url('../../../assets/imgs/lee-bg.jpg');
+      background-size: cover;
+      text-align: center;
+      .header-top-section {
+        .header-inputs {
+          padding: 0 !important;
+        }
+
+        .get-estimate-input {
+          color: white !important;
+          border-radius: 0 !important;
+          height: 3rem;
+          margin-right: -2rem !important;
+          background-color: rgba($color: #000000, $alpha: 0);
+          border: 1px solid white !important;
+          font-family: 'Poppins', sans-serif !important;
+
+          &:focus {
+            border-color: dodgerblue !important;
+          }
+          &::placeholder {
+            color: white;
+            @media (min-width: 576px) and (max-width: 991px) {
+              font-size: 0.6rem !important;
+            }
+            @media (max-width: 410px) {
+              font-size: 0.65rem !important;
+            }
+          }
+          @media (max-width: 575px) {
+            margin-bottom: 0.5rem;
+          }
+        }
+        .get-estimate-btn {
+          border-radius: 0 !important;
+          border: 2px solid white;
+          background-color: white;
+          color: slategray;
+          height: 3rem;
+          font-family: 'Poppins', sans-serif !important;
+
+          @media (min-width: 576px) and (max-width: 991px) {
+            font-size: 0.8rem !important;
+          }
+        }
+      }
+      .header-bottom-section {
+        color: white;
+        .estimate-box {
+          width: 100%;
+          height: 200px;
+          h2 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: white !important;
+            font-family: 'Poppins', sans-serif !important;
+          }
+          h5 {
+            font-family: 'Poppins', sans-serif !important;
+            color: white !important;
+          }
+          @media (min-width: 576px) and (max-width: 999px) {
+            h2 {
+              font-size: 2rem;
+            }
+            h5 {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .left-blue-box {
+          background-color: #008fff;
+
+          @media (max-width: 575px) {
+            margin-bottom: 0.5rem;
+          }
+        }
+        .right-orange-box {
+          background-color: #f26e21;
+        }
+      }
+    }
+    .section-1 {
+      background-color: #008fff;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+      h1 {
+        font-family: 'Poppins', sans-serif !important;
+        color: white !important;
+        @media (max-width: 450px) {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+      .header-img {
+        margin: auto !important;
+      }
+      .section-1-row-2 {
+        .title-box {
+          h6 {
+            color: #e7e7e7e7 !important;
+            font-family: 'Poppins', sans-serif !important;
+            @media (min-width: 768px) and (max-width: 999px) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .number-box {
+          .number-sign {
+            color: #e3e3e3;
+            font-size: 1.5rem;
+          }
+          .number {
+            font-size: 3rem;
+            color: white !important;
+            @media (min-width: 768px) and (max-width: 999px) {
+              font-size: 2rem;
+            }
+          }
+          .subtitle {
+            color: white !important;
+            @media (min-width: 768px) and (max-width: 999px) {
+              font-size: 0.6rem;
+            }
+          }
+        }
+      }
+      .section-1-row-3 {
+        .title-box {
+          .title {
+            color: #e7e7e7 !important;
+            font-family: 'Poppins', sans-serif !important;
+            @media (min-width: 768px) and (max-width: 999px) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .number-box {
+          border-left: 1px solid white;
+          margin-top: -1.5rem !important;
+          // border: 5px dotted yellow;
+          @media (max-width: 767px) {
+            padding-bottom: 1.25rem;
+            border-left: 0px;
+            border-bottom: 1px solid #e3e3e3;
+            margin-bottom: 1rem;
+          }
+
+          .number {
+            font-size: 2rem;
+            color: white !important;
+            @media (min-width: 768px) and (max-width: 999px) {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+
+    .section-2 {
+      border: 5px solid #f26e21;
+
+      h3,
+      h5,
+      h6 {
+        color: gray !important;
+        font-family: 'Poppins', sans-serif !important;
+      }
+
+      h3 {
+        @media (max-width: 450px) {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+
+      .number-box {
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        box-shadow: 2px 2px 10px #e3e3e3;
+
+        span {
+          small {
+            color: dodgerblue !important;
+            @media (min-width: 991px) and (max-width: 1199px) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+      .chart-box {
+        text-align: center !important;
+        @media (max-width: 991px) {
+          margin-bottom: 3rem;
+          margin-top: 4rem;
+        }
+      }
+    }
+  }
+}

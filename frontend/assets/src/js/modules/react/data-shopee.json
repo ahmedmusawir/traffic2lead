@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "SiteName": "shopee.com",
+  "Description": "shopee is the leading e-commerce online shopping platform in southeast asia and taiwan. it provides customers with an easy, secure and fast online shopping experience through strong payment and logistical support. shopee has a wide selection of product categories ranging from consumer electronics to home & living, health & beauty, baby & toys, fashion and fitness equipment.",
+  "TopCountryShares": [
+    {
+      "Country": 704,
+      "Value": 0.14528430968146194
+    },
+    {
+      "Country": 360,
+      "Value": 0.11785369720007226
+    },
+    {
+      "Country": 156,
+      "Value": 0.10660782612896455
+    },
+    {
+      "Country": 608,
+      "Value": 0.09411224693146002
+    },
+    {
+      "Country": 840,
+      "Value": 0.08787109712051783
+    }
+  ],
+  "Title": "leading online shopping platform in southeast asia & taiwan | shopee",
+  "Engagments": {
+    "BounceRate": "0.5685182230286278",
+    "Month": "1",
+    "Year": "2023",
+    "PagePerVisit": "2.8132359326123733",
+    "Visits": "2979813.1279180762",
+    "TimeOnSite": "125.76845810375539"
+  },
+  "EstimatedMonthlyVisits": {
+    "2022-11-01": 3729614,
+    "2022-12-01": 3470390,
+    "2023-01-01": 2979813
+  },
+  "GlobalRank": {
+    "Rank": 23939
+  },
+  "CountryRank": {
+    "Country": 704,
+    "Rank": 4783
+  },
+  "IsSmall": false,
+  "TrafficSources": {
+    "Social": 0.0065799746412301685,
+    "Paid Referrals": 0.0027261683359138455,
+    "Mail": 0.012394018539841298,
+    "Referrals": 0.23294895539925173,
+    "Search": 0.24509015697863412,
+    "Direct": 0.5002607261051288
+  },
+  "Category": "e-commerce_and_shopping/marketplace",
+  "CategoryRank": {
+    "Rank": "19",
+    "Category": "E-commerce_and_Shopping/Marketplace"
+  },
+  "LargeScreenshot": "https://site-images.similarcdn.com/image?url=shopee.com&t=1&s=1&h=c88f5929edaaa77f2b2c64b5c5870e0ecc7faad86f344b5d7cf9d05d89b372a6",
+  "IsDataFromGa": false
+}
