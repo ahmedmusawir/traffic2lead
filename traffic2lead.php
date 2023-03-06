@@ -3,7 +3,7 @@
 Plugin Name: Traffic2Lead
 Plugin URI: https://cyberizegroup.com/
 Description: This plugin will help you plan how to convert your website traffic into profitable leads.
-Version: 1.1.0
+Version: 1.9.0
 Author: Cyberize Group Inc.
 Author URI: https://linkedin.com/ahmedmusawir
 License: GPLv2 or later

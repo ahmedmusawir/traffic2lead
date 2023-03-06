@@ -91,8 +91,22 @@ const validateDomainName = (domainName) => {
   if (dn.test(domainName)) {
     return null;
   } else {
-    return 'A valid Domain Name or a Number is requied!';
+    return 'A valid Domain Name (no http, slashes or colons) or a Number is requied!';
   }
 };
 
-export { getMonths, getMonthlyChange, sendEmail, validateDomainName };
+const validateMonthlyVisits = (monthlyVisits) => {
+  if (monthlyVisits <= 5000) {
+    return 'Your monthly web traffic is less than 5000. Sorry, No SimilarWeb API data available. Please insert total monthly visitor number manually to calculate lead count';
+  } else {
+    return null;
+  }
+};
+
+export {
+  getMonths,
+  getMonthlyChange,
+  sendEmail,
+  validateDomainName,
+  validateMonthlyVisits,
+};

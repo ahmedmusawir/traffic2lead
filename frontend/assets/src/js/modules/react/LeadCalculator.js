@@ -31,8 +31,8 @@ function LeadCalculator() {
   }, []);
 
   return (
-    <main className="container-fluid main-container">
-      <header className="container-fluid bg-dark py-5 mb-5">
+    <main className='container-fluid main-container'>
+      <header className='container-fluid bg-dark py-5 mb-5'>
         {apiData && (
           <Header
             totalVisits={apiData?.Engagments?.Visits}
@@ -46,9 +46,9 @@ function LeadCalculator() {
           />
         )}
       </header>
-      <div className="container-fluid">
+      <div className='container-fluid'>
         {apiData && !isNumber && (
-          <div className="row section-1">
+          <div className='row section-1'>
             <SectionOne
               siteName={apiData?.SiteName}
               imgUrl={apiData?.LargeScreenshot}
@@ -64,7 +64,7 @@ function LeadCalculator() {
           </div>
         )}
         {apiData && !isNumber && (
-          <div className="row section-2 mt-5">
+          <div className='row section-2 mt-5'>
             <SectionTwo
               siteName={apiData?.SiteName}
               direct={apiData?.TrafficSources?.Direct}
