@@ -28,9 +28,7 @@ function LeadCalculatorAdmin() {
   const ajaxPostFunction = 'update_api_keys_ajax';
   const ajaxEmailGetFunction = 'get_email_keys_ajax';
   const ajaxEmailPostFunction = 'update_email_keys_ajax';
-  const pluginImgUrl =
-    leeAdminData.plugin_url +
-    '/lee-goff-similarweb-react-plugin/admin/assets/imgs';
+  const pluginImgUrl = leeAdminData.plugin_url + '/admin/assets/imgs';
   const [rapidApiKey, setRapidApiKey] = useState('');
   const [emailPublicKey, setEmailPublicKey] = useState('');
   const [emailTemplateKey, setEmailTemplateKey] = useState('');
@@ -89,6 +87,13 @@ function LeadCalculatorAdmin() {
   return (
     <div className='App'>
       <section className='input-box'>
+        <a
+          href='https://www.youtube.com/watch?v=HdYuC043Ehc'
+          target={'_blank'}
+          className='btn btn-info float-right ml-auto'
+        >
+          How to Setup
+        </a>
         <h1 className='text-light'>Shortcode:</h1>
         <h5 className='text-warning mb-4'>[traffic_2_lead_calculator]</h5>
       </section>
